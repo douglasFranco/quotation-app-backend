@@ -1,5 +1,5 @@
 const port = process.env.PORT ? process.env.PORT : 80
-console.log(process.env.PORT) 
+
 const bodyParser = require('body-parser')
 const express = require('express')
 const server = express()
