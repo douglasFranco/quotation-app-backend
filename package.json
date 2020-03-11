@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
-    "dev": "node node_modules/nodemon/bin/nodemon.js",
+    "dev": "env PORT=3003 node node_modules/nodemon/bin/nodemon.js",
     "production": "pm2 start src/index.js --name quotation-app",
     "stop": "pm2 stop quotation-app"
   },
