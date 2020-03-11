@@ -1,6 +1,6 @@
 const axios = require('axios')
 const cron = require('node-cron')
-const Quotation = require('../api/quotation/Quotation')
+const Quotation = require('../api/quotation/quotation')
 const currentDate = require('./dateFormater')
 
 module.exports = cron.schedule('00 59 * * * *', () => {

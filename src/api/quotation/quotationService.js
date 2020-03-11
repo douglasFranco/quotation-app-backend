@@ -1,4 +1,4 @@
-const Quotation = require('./Quotation')
+const Quotation = require('./quotation')
 const currentDate = require('../../components/dateFormater')
 
 Quotation.methods(['get'])
